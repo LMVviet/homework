@@ -10,7 +10,7 @@ public class HashSetDemo {
         Scanner sc=new Scanner(System.in);
         int n;
         Student student = new Student();
-        System.out.print("Nhap vao so luong sinh vien: ");
+        System.out.print("Nhap vao so sinh vien: ");
         n=sc.nextInt();
         //Nhap 
         for(int i=0;i<n;i++){

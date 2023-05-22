@@ -9,7 +9,7 @@ public class LinkedListsDemo {
         Scanner sc = new Scanner(System.in);
         Student std = new Student();
 
-        System.out.print("Nhap vao so hoc sinh: ");
+        System.out.print("Nhap vao so sinh vien: ");
         int n = sc.nextInt();
 
         // Them thong tin

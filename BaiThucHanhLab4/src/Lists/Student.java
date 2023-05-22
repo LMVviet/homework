@@ -1,7 +1,5 @@
 package Lists;
 
-
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -21,7 +19,7 @@ public class Student {
     // Hien thi thong tin
     public void HienThiThongTin(List<Student> stdList) {
         for (int i = 0; i < stdList.size(); i++) {
-            System.out.println(stdList.get(i).FullName);
+            System.out.println("Ten sinh vien la " + stdList.get(i).FullName);
             System.out.println(stdList.get(i).Age);
         }
     }
